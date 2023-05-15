@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "react-alice-carousel/lib/alice-carousel.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+body {
+  background: lightgray;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.stickySideBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+input:focus {
+  outline: none;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+.button {
+  font-size: 15px;
+  padding: 0.5em 2em;
+  border: none;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  outline: none;
+  background: #333;
+  color: white;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background: rgb(2, 0, 36);
+}
+
+.button:active {
+  transform: translate(0em, 0.2em);
+}
+
+@media only screen and (max-width: 460px) {
+  .logo {
+    display: none;
+  }
+}
+
+@keyframes fade-in-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-fade-in-left {
+  animation: fade-in-left 0.5s ease-out;
+  animation-fill-mode: both;
+}

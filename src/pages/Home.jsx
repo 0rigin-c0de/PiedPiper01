@@ -1,7 +1,7 @@
 import React from "react";
-import Layout from "../components/Layout";
-import SideBarDesktop from "../components/Mobile+Desktop(Navbar)/SideBarDesktop";
-import Posts from "./Posts";
+import Layout from "../components /Layout";
+import SideBarDesktop from "../components /Mobile+Desktop(Navbar)/SideBarDesktop";
+import Posts from "./Post";
 import Sidebar from "./Sidebar";
 
 const Home = () => {

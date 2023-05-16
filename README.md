@@ -55,3 +55,7 @@ Thank you for your interest in my app!
 
 <a href="https://github.com/0rigin-c0de"
 target="blank"> <img src="https://github.com/0rigin-c0de.png" alt="Contributor" style="border-radius: 50%; width: 50px; height: 50px;"></a>
+
+## Preview 
+
+<img src="https://github.com/0rigin-c0de/PiedPiper01/assets/106311923/2bbed5df-eb61-4ce6-802e-9ed08f06649d" alt="website" style="border-radius:10px; width: 50%; height: 50%; border: 2px solid beige;" />

@@ -51,6 +51,7 @@ This app is licensed under the MIT License.
 
 Thank you for your interest in my app!
 
-## Contributors 
-<img src="https://github.com/0rigin-c0de.png" alt="Alt Text" style="border-radius: 50%; width: 50px; height: 50px;">
+## Contributors
 
+<a href="https://github.com/0rigin-c0de"
+target="blank"> <img src="https://github.com/0rigin-c0de.png" alt="Contributor" style="border-radius: 50%; width: 50px; height: 50px;"></a>

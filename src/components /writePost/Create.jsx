@@ -6,6 +6,7 @@ import { useFireStore } from "../../Hooks/useFirestore";
 import Navbar from "./Navbar";
 import Select from "react-select";
 import TinyMC from "./TinyMC";
+import "../../index.css";
 
 const Categories = [
   { value: "software Engineering", label: "Software Engineering" },

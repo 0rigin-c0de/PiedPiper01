@@ -64,9 +64,16 @@ textarea:focus {
   transform: translate(0em, 0.2em);
 }
 
+.container {
+  width: 95%;
+}
+
 @media only screen and (max-width: 460px) {
   .logo {
     display: none;
+  }
+  .container {
+    width: 95%;
   }
 }
 

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Logo from "../../assets/logo.png";
 import { useAuthContent } from "../../Hooks/useAuthContent";
+import "../../index.css";
 
 const Navbar = ({ handleSubmit, response }) => {
   const { userData } = useAuthContent();
@@ -19,17 +20,13 @@ const Navbar = ({ handleSubmit, response }) => {
           <button
             onClick={handleSubmit}
             aria-label="publish article"
-            className="bg-green-400 hover:bg-green-800 rounded-full text-white  p-1 tracking-wide px-3 md:px-4 md:text-lg text-md "
+            className="button"
           >
             Publish
           </button>
         )}
         {response.Ispending && (
-          <button
-            disabled
-            aria-label="publish article"
-            className="bg-green-500 hover:bg-green-800 rounded-full text-white  p-1 tracking-wide px-3 md:px-4 md:text-lg text-md "
-          >
+          <button disabled aria-label="publish article" className="button ">
             Publishing
           </button>
         )}

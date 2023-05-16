@@ -2,6 +2,10 @@
 
 Pied-Piper01 is a simple blog web application built with ReactJs and Firebase. It allows users to create, read, and comment on posts. The posts and images are stored in Firebase, making it easy to scale and manage the app. The app is also responsive, which means it works well on all types of screens.
 
+## Preview
+
+<img src="https://github.com/0rigin-c0de/PiedPiper01/assets/106311923/2bbed5df-eb61-4ce6-802e-9ed08f06649d" alt="website" style="border-radius:10px; width: 50%; height: 50%; border: 2px solid beige;" />
+
 ## Getting Started
 
 To get started, clone this repository and install the dependencies:
@@ -50,12 +54,3 @@ I am always happy to receive feedback and suggestions. Please feel free to open 
 This app is licensed under the MIT License.
 
 Thank you for your interest in my app!
-
-## Contributors
-
-<a href="https://github.com/0rigin-c0de"
-target="blank"> <img src="https://github.com/0rigin-c0de.png" alt="Contributor" style="border-radius: 50%; width: 50px; height: 50px;"></a>
-
-## Preview 
-
-<img src="https://github.com/0rigin-c0de/PiedPiper01/assets/106311923/2bbed5df-eb61-4ce6-802e-9ed08f06649d" alt="website" style="border-radius:10px; width: 50%; height: 50%; border: 2px solid beige;" />

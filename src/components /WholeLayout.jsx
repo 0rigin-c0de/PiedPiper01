@@ -1,5 +1,5 @@
 import React from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, Navigate } from "react-router-dom";
 import { useAuthContent } from "../Hooks/useAuthContent";
 import Sidebar from "../pages/Sidebar";
 import Layout from "./Layout";
@@ -8,6 +8,10 @@ import SideBarDesktop from "./Mobile+Desktop(Navbar)/SideBarDesktop";
 const WholeLayout = ({ children }) => {
   const { userData } = useAuthContent();
   const location = useLocation();
+
+  if (location.pathname !== "/Get-Started" && !userData) {
+    return <Navigate to="/Get-Started" />;
+  }
 
   return (
     <div>

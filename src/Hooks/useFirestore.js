@@ -98,8 +98,10 @@ export const useFireStore = (collection) => {
 
   // for clean up function
   useEffect(() => {
-    return () => setIsCancelled(true);
-  });
+    return () => {
+      setIsCancelled(true);
+    };
+  }, []);
 
   return { response, addDocument, deleteDocument, UpdateDocument };
 };

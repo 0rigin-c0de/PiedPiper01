@@ -26,7 +26,7 @@ const Hero = () => {
       <div className=" lg:text-3xl font-bold text-center text-lg text-gray-700 mb-0 py-28 mt-60  ">
         Made with ❤️ by
         <a
-          href="https://github.com/0rigin-c0de"
+          href="https://github.com/0rigin-c0de/PiedPiper01"
           target="_blank"
           rel="noreferrer"
           className="text-pink-600 underline mx-4"

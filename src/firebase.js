@@ -4,12 +4,12 @@ import "firebase/storage";
 import "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyABsqS9iSREa_4ZRbp-w-vTT-pi3MPvIHQ",
-  authDomain: "bloggy-d85ce.firebaseapp.com",
-  projectId: "bloggy-d85ce",
-  storageBucket: "bloggy-d85ce.appspot.com",
-  messagingSenderId: "927253908331",
-  appId: "1:927253908331:web:ce8a376f94ffe0a7909a2e",
+ apiKey: "AIzaSyDQ6wL2EwIPxr63Pyv8X0jnUs8H1qIlbhM",
+  authDomain: "blog-f470c.firebaseapp.com",
+  projectId: "blog-f470c",
+  storageBucket: "blog-f470c.appspot.com",
+  messagingSenderId: "983867726662",
+  appId: "1:983867726662:web:426903da424ca0a1eae347"
 };
 
 //init firebase

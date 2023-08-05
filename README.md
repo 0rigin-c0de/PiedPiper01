@@ -53,4 +53,3 @@ I am always happy to receive feedback and suggestions. Please feel free to open 
 
 This app is licensed under the MIT License.
 
-Thank you for your interest in my app!

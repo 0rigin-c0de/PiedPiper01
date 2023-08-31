@@ -4,12 +4,12 @@ import "firebase/storage";
 import "firebase/auth";
 
 const firebaseConfig = {
- apiKey: process.env.REACT_APP_API_KEY,
-  authDomain: "blog-f470c.firebaseapp.com",
-  projectId: "blog-f470c",
-  storageBucket: "blog-f470c.appspot.com",
-  messagingSenderId: "983867726662",
-  appId: "1:983867726662:web:426903da424ca0a1eae347"
+  apiKey: process.env.REACT_APP_API_KEY,
+  authDomain: "piedpiper-49e7f.firebaseapp.com",
+  projectId: "piedpiper-49e7f",
+  storageBucket: "piedpiper-49e7f.appspot.com",
+  messagingSenderId: "586761896914",
+  appId: "1:586761896914:web:08daea0acf1921c1edbe0b",
 };
 
 //init firebase

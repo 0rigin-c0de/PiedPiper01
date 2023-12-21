@@ -5,11 +5,11 @@ import "firebase/auth";
 
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_API_KEY,
-  authDomain: "piedpiper-49e7f.firebaseapp.com",
-  projectId: "piedpiper-49e7f",
-  storageBucket: "piedpiper-49e7f.appspot.com",
-  messagingSenderId: "586761896914",
-  appId: "1:586761896914:web:08daea0acf1921c1edbe0b",
+  authDomain: "infosphere--01.firebaseapp.com",
+  projectId: "infosphere--01",
+  storageBucket: "infosphere--01.appspot.com",
+  messagingSenderId: "89936410183",
+  appId: "1:89936410183:web:f3dd00297118245282e362",
 };
 
 //init firebase

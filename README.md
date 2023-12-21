@@ -1,17 +1,17 @@
-# Pied-Piper01 - Simple Blog Web Application
+# InfoSphere - Simple Blog Web Application
 
-Pied-Piper01 is a simple blog web application built with ReactJs and Firebase. It allows users to create, read, and comment on posts. The posts and images are stored in Firebase, making it easy to scale and manage the app. The app is also responsive, which means it works well on all types of screens.
+InfoSPhere is a simple blog web application built with ReactJs and Firebase. It allows users to create, read, and comment on posts. The posts and images are stored in Firebase, making it easy to scale and manage the app. The app is also responsive, which means it works well on all types of screens.
 
 ## Preview
 
-<img src="https://github.com/0rigin-c0de/PiedPiper01/assets/106311923/2bbed5df-eb61-4ce6-802e-9ed08f06649d" alt="website" style="border-radius:10px; width: 50%; height: 50%; border: 2px solid beige;" />
+<img src="" alt="website" style="border-radius:10px; width: 50%; height: 50%; border: 2px solid beige;" />
 
 ## Getting Started
 
 To get started, clone this repository and install the dependencies:
 
 ```
-git clone https://github.com/0rigin-c0de/Pied-Piper01.git
+git clone https://github.com/0rigin-c0de/InfoSPhere.git
 
 cd Pied-iper01
 
@@ -52,4 +52,3 @@ I am always happy to receive feedback and suggestions. Please feel free to open 
 ## License
 
 This app is licensed under the MIT License.
-

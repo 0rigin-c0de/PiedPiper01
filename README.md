@@ -11,9 +11,9 @@ InfoSPhere is a simple blog web application built with ReactJs and Firebase. It 
 To get started, clone this repository and install the dependencies:
 
 ```
-git clone https://github.com/0rigin-c0de/InfoSPhere.git
+git clone https://github.com/0rigin-c0de/PiedPier01.git
 
-cd Pied-iper01
+cd PiedPier01
 
 yarn
 

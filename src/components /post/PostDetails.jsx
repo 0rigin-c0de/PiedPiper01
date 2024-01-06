@@ -53,7 +53,7 @@ const PostDetails = () => {
               </div>
             </div>
             <div>
-              <div className="cursor-pointer ">
+              <div className="cursor-pointer">
                 <BsThreeDots
                   size={30}
                   className="text-gray-700"
@@ -62,7 +62,7 @@ const PostDetails = () => {
               </div>
             </div>
             {appear && (
-              <div className="w-40 shadow-lg bg-gray-50 top-[2.5rem] left-[60rem] absolute right-0 text-center text-red-500 px-4 py-2 ">
+              <div className="w-full md:w-40 shadow-lg bg-gray-50 top-[2.5rem] md:left-[60rem] left-0 md:right-0 absolute right-0 text-center text-red-500 px-4 py-2 ">
                 {userData.uid === document.createdBy.id ? (
                   <button
                     className="delete-button"

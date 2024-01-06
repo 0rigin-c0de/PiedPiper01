@@ -115,10 +115,10 @@ const Create = () => {
   return (
     <>
       <Navbar handleSubmit={handleSubmit} response={response} />
-      <div className="container mx-auto mt-20 flex flex-col md:flex-row gap-12 mb-20">
-        <div className="flex flex-col gap-12 w-full md:w-1/2">
-          <div className="flex flex-col gap-5 w-full">
-            <label htmlFor="title" className="text-xl font-bold tracking-wider">
+      <div className="container mx-auto mt-8 flex flex-col md:flex-row gap-8 mb-16">
+        <div className="flex flex-col gap-8 w-full md:w-1/2">
+          <div className="flex flex-col gap-4 w-full">
+            <label htmlFor="title" className="text-lg font-semibold">
               Title
             </label>
             <input
@@ -127,32 +127,32 @@ const Create = () => {
               onChange={GenerateId}
               type="text"
               placeholder="Title"
-              className="border border-solid p-3 rounded-lg"
+              className="border p-3 rounded-lg"
             />
           </div>
 
-          <div className="flex flex-col gap-5 w-full">
-            <label htmlFor="title" className="text-xl font-bold tracking-wider">
+          <div className="flex flex-col gap-4 w-full">
+            <label htmlFor="title" className="text-lg font-semibold">
               Tell Your Story
             </label>
             <TinyMC setBody={setBody} />
           </div>
 
-          <div className="flex flex-col gap-5 w-full">
-            <label htmlFor="title" className="text-xl font-bold tracking-wider">
+          <div className="flex flex-col gap-4 w-full">
+            <label htmlFor="title" className="text-lg font-semibold">
               Image for Your Post
             </label>
             <input
               type="file"
               required
               accept="image/png, image/gif, image/jpeg"
-              className="border border-solid p-3 rounded-lg"
+              className="border p-3 rounded-lg"
               onChange={handleAddImage}
             />
           </div>
 
-          <div className="flex flex-col gap-5 w-full mb-32">
-            <label htmlFor="title" className="text-xl font-bold tracking-wider">
+          <div className="flex flex-col gap-4 w-full mb-8">
+            <label htmlFor="title" className="text-lg font-semibold">
               Category
             </label>
             <Select
@@ -164,10 +164,9 @@ const Create = () => {
           </div>
         </div>
 
-        {/* right side */}
-        <div className="flex flex-col gap-12 w-full md:w-1/2">
-          <div className="flex flex-col gap-5 w-full">
-            <label htmlFor="title" className="text-xl font-bold tracking-wider">
+        <div className="flex flex-col gap-8 w-full md:w-1/2">
+          <div className="flex flex-col gap-4 w-full">
+            <label htmlFor="title" className="text-lg font-semibold">
               Brief
             </label>
             <input
@@ -176,12 +175,12 @@ const Create = () => {
               onChange={(e) => setBrief(e.target.value)}
               type="text"
               placeholder="Brief"
-              className="border border-solid p-3 rounded-lg"
+              className="border p-3 rounded-lg"
             />
           </div>
 
-          <div className="flex flex-col gap-5 w-full">
-            <label htmlFor="title" className="text-xl font-bold tracking-wider">
+          <div className="flex flex-col gap-4 w-full">
+            <label htmlFor="title" className="text-lg font-semibold">
               Time to read
             </label>
             <input
@@ -190,12 +189,12 @@ const Create = () => {
               onChange={(e) => setTime(e.target.value)}
               type="number"
               placeholder="Time to read"
-              className="border border-solid p-3 rounded-lg"
+              className="border p-3 rounded-lg"
             />
           </div>
 
-          <div className="flex flex-col gap-5 w-full">
-            <label htmlFor="title" className="text-xl font-bold tracking-wider">
+          <div className="flex flex-col gap-4 w-full">
+            <label htmlFor="title" className="text-lg font-semibold">
               ID
             </label>
             <input
@@ -204,16 +203,17 @@ const Create = () => {
               onChange={(e) => setId(e.target.value)}
               type="text"
               placeholder="ID"
-              className="border border-solid p-3 rounded-lg"
+              className="border p-3 rounded-lg"
             />
           </div>
+
           {error && (
-            <p className="bg-red-200 p-2 rounded-lg text-center text-xl">
+            <p className="bg-red-200 p-2 rounded-lg text-center text-lg">
               Fill all the fields
             </p>
           )}
           {imageError && (
-            <p className="bg-red-200 p-2 rounded-lg text-center text-xl">
+            <p className="bg-red-200 p-2 rounded-lg text-center text-lg">
               Failed Uploading Image
             </p>
           )}

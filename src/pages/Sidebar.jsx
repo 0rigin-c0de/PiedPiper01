@@ -25,7 +25,7 @@ const Sidebar = () => {
                   </h1>
 
                   <h1 className="mt-12 text-2xl font-bold">
-                    More From pied-piper
+                    More From info-sphere
                   </h1>
                 </div>
               </div>
